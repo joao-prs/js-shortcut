@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="css.css">
+    <title>Calculadora</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="calculadora">
+      <div id="visor"><span id="visorInfo"></span></div>
+      <div id="buttonGrid">
+        
+        <button class="button operadores" value="(">(</button>   
+        <!--   Aqui é para chamar a função de apagar apenas o ultimo valor inserido.  -->
+        <button class="button" onclick="calculadora.apagaUltimoDigito()">DEL</button>
+        <button class="button operadores" value=")" >)</button>
+        <button class="button operadores" value="/">÷</button>
+        
+        <button class="button numeros" value="1">1</button>   
+        <button class="button numeros" value="2">2</button>
+        <button class="button numeros" value="3">3</button>
+        <button class="button operadores" value="*">x</button>
+        
+        <button class="button numeros" value="4">4</button>   
+        <button class="button numeros" value="5">5</button>
+        <button class="button numeros" value="6">6</button>
+        <button class="button operadores" value="-">-</button>
+        
+        <button class="button numeros" value="7">7</button>   
+        <button class="button numeros" value="8">8</button>
+        <button class="button numeros" value="9">9</button>
+        <button class="button operadores" value="+">+</button>
+        
+        <button class="button-ligar" onclick="calculadora.ligarCalculadora()">ON</button>   
+        <button class="button numeros" value="0">0</button>
+        <button class="button numeros" value=".">,</button>
+        <!--  Colocar a função que traz o resultado pra tela    -->
+        <button class="button-result" onclick="calculadora.handleOperacoes()" >=</button>
+      </div>  
+    </div>
+
+</body>
+</html>
