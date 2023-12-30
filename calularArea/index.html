@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcularArea</title>
+  <!--script-->
+  <script src="main.js" defer></script>
+  <style>
+    .div1 {
+        background-color: #e8e8e8;
+        border-radius: 10px;
+        padding: 15px; }
+    .div2 {
+        background-color: #cecece;
+        border-radius: 10px;
+        padding: 15px; }
+  </style>
+</head>
+<body style="background-color: #cecece;">
+  <!--calcular area m2-->
+  <div class="div1">
+    <div class="div1">
+      <h2>Calcular area m²</h2>
+      <p>comprimento</p>
+      <input type="text" name="text1" id="text1"/>
+    
+      <p>largura</p>
+      <input type="text" name="text2" id="text2"/>
+      <button class="button" onclick="areaQuadrada()">calcular</button>
+      <button class="button" onclick="limpar()">limpar</button>
+    </div>
+
+    <div class="div2">
+      <p>resultado: </p>
+      <input type="text" name="text3" id="text3" placeholder="Seu resultado">
+      <!-- <input type="text" name="text3" id="text3" onclick= "this.value = '' "/> -->
+    </div>
+  </div>
+
+  <br>
+  <!--calcular area m3-->
+  <div class="div1">
+    <div class="div1">
+      <h2>Calcular area m³</h2>
+      <p>comprimento</p>
+      <input type="text" name="text4" id="text4"/>
+    
+      <p>largura</p>
+      <input type="text" name="text5" id="text5"/>
+
+      <p>altura</p>
+      <input type="text" name="text6" id="text6"/>
+      <button class="button" onclick="areaCubica()">calcular</button>
+      <button class="button" onclick="limpar()">limpar</button>
+    </div>
+    <div class="div2">
+      <p>resultado: </p>
+      <input type="text" name="text7" id="text7" placeholder="Seu resultado">
+    </div>
+  </div>
+
+
+</body>
+</html>
