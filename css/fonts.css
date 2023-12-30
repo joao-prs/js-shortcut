@@ -1,0 +1,30 @@
+/* 
+*
+*   fonts
+*
+*/
+
+h2 {
+  font-family: Arial, sans-serif, "Verdana";
+}
+h3 {
+  font-family: Verdana, Arial, sans-serif;
+}
+p {
+  font-family: Verdana, Arial, sans-serif;
+}
+a {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+a.qweasd:link {
+  color: #cecece;
+}
+a.qweasd:visited {
+  color: #cecece;
+}
+/**/
+/**/
+/**/
+/**/
+/**/

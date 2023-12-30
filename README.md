@@ -1,4 +1,5 @@
 # js-shortcut
 js shortcut to study
 
-- calculator
+- calculator (kibed)
+- area calculator

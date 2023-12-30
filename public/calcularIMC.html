@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcular IMC</title>
+  <!--script-->
+  <script src="js/calcularIMC.js" defer></script>
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../css/css.css" />
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+</head>
+
+<body>
+  <!--navegation links-->
+  <div class="div2">
+
+    <h3>links de navegação</h3>
+    <a href="../index.html">home</a>
+  </div>
+
+  <!--calcular IMC-->
+  <div class="div1">
+    <div class="div1">
+      <h2>Calcular IMC</h2>
+      <p>Altura (cm)</p>
+      <input type="text" name="text1" id="text1" placeholder='exemplo: "170" cm'/>
+    
+      <p>Peso (kg)</p>
+      <input type="text" name="text2" id="text2" placeholder='exemplo: "65" kg'/>
+    </div>
+
+    <div class="div2">
+      <p>resultado: </p>
+      <input type="text" name="text3" id="text3" placeholder="Seu resultado">
+      <button class="button" onclick="calcularIMC()">calcular</button>
+      <button class="button" onclick="limpar()">limpar</button>
+    </div>
+  </div>
+
+  <!--Referência (conhecimento)-->
+  <div class="div_note">
+    <h2>Valores IMC</h2>
+    <ul>
+      <li><p>abaixo de 17: muito abaixo do peso normal</p></li>
+      <li><p>entre 17 e 18.49: Abaixo do peso normal</p></li>
+      <li><p>entre 18.5 e 24.99: Peso normal (ideal)</p></li>
+      <li><p>entre 25 e 29.99: Excesso de peso</p></li>
+      <li><p>entre 30 e 34.99: Obesidade grau I</p></li>
+      <li><p>entre 35 e 39.99: Obesidade grau II</p></li>
+      <li><p>a cima de 40: Obesidade grau III</p></li>
+    </ul>
+  </div>
+
+</body>
+</html>

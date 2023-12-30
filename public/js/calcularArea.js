@@ -18,7 +18,7 @@ function areaCubica () {
   document.getElementById("text7").value = parseFloat(var4).toFixed(2) + " m³";
 }
 
-
+// funcao para limpeza
 function limpar() {
   // Obter todos os elementos de entrada
   var camposInput = document.querySelectorAll('input');

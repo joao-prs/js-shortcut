@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>calcularArea</title>
+  <title>calcular Area</title>
   <!--script-->
-  <script src="main.js" defer></script>
-  <style>
-    .div1 {
-        background-color: #e8e8e8;
-        border-radius: 10px;
-        padding: 15px; }
-    .div2 {
-        background-color: #cecece;
-        border-radius: 10px;
-        padding: 15px; }
-  </style>
+  <script src="js/calcularArea.js" defer></script>
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../css/css.css" />
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
 </head>
-<body style="background-color: #cecece;">
+<body>
+  <!--navegation links-->
+  <div class="div2">
+
+    <h3>links de navegação</h3>
+    <a href="../index.html">home</a>
+  </div>
+
+
   <!--calcular area m2-->
   <div class="div1">
     <div class="div1">
@@ -27,14 +28,14 @@
     
       <p>largura</p>
       <input type="text" name="text2" id="text2"/>
-      <button class="button" onclick="areaQuadrada()">calcular</button>
-      <button class="button" onclick="limpar()">limpar</button>
     </div>
 
     <div class="div2">
       <p>resultado: </p>
       <input type="text" name="text3" id="text3" placeholder="Seu resultado">
       <!-- <input type="text" name="text3" id="text3" onclick= "this.value = '' "/> -->
+      <button class="button" onclick="areaQuadrada()">calcular</button>
+      <button class="button" onclick="limpar()">limpar</button>
     </div>
   </div>
 
@@ -51,12 +52,12 @@
 
       <p>altura</p>
       <input type="text" name="text6" id="text6"/>
-      <button class="button" onclick="areaCubica()">calcular</button>
-      <button class="button" onclick="limpar()">limpar</button>
     </div>
     <div class="div2">
       <p>resultado: </p>
       <input type="text" name="text7" id="text7" placeholder="Seu resultado">
+      <button class="button" onclick="areaCubica()">calcular</button>
+      <button class="button" onclick="limpar()">limpar</button>
     </div>
   </div>
 
