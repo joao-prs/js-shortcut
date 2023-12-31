@@ -16,6 +16,9 @@ p {
 a {
   font-family: Verdana, Arial, sans-serif;
 }
+label {
+  font-family: Verdana, Arial, sans-serif;
+}
 
 a.qweasd:link {
   color: #cecece;

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--script-->
+  <script src="js/geradorSenha.js" defer></script>
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../css/css.css" />
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+</head>
+
+<body>
+  
+
+
+  <!--navegation links-->
+  <div class="div2">
+
+    <h3>links de navegação</h3>
+    <a href="../index.html">home</a>
+  </div>
+  <!--objective body-->
+  <div class="div1">
+    <div class="div1">
+      <h2>Gerador de senha</h2>
+
+      <input type="checkbox" name="checklower" id="checklower"/><label>incluir letras minúsculas</label>
+      <br>
+      <input type="checkbox" name="checkupper" id="checkupper"/><label>incluir letras maiúsculas</label>
+      <br>
+      <input type="checkbox" name="checknumber" id="checknumber"/><label>incluir números</label>
+      <br>
+      <input type="checkbox" name="checksymbol" id="checksymbol"/><label>incluir simbolos</label>
+      <br>
+      <input type="number" name="checksize" id="checksize"/><label> tamanho</label>
+      <br>
+      <button class="button" onclick="gerarSenhas()">gerar</button>
+    </div>
+    <div class="div2">
+      <p>senha: </p>
+      <input type="text" name="text4" id="text4" placeholder="S3nhaF0rte!">
+    </div>
+  </div>
+
+
+
+</body>
+</html>
