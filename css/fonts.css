@@ -20,6 +20,10 @@ label {
   font-family: Verdana, Arial, sans-serif;
 }
 
+::placeholder {
+  color: #959595;
+}
+
 a.qweasd:link {
   color: #cecece;
 }
