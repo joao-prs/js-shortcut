@@ -26,7 +26,21 @@ a.qweasd:link {
 a.qweasd:visited {
   color: #cecece;
 }
-/**/
+
+
+/* card */
+.font_card  {
+  font-family: Verdana, Arial, sans-serif;
+  color: bisque;
+}
+
+a.link_card:link {
+  color: #ffdaad;
+}
+a.link_card:visited {
+  color: #ffdaad;
+}
+
 /**/
 /**/
 /**/
