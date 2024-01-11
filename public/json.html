@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Json</title>
+  <!--script-->
+  <script src="js/json.js" defer></script>
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../css/css.css" />
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css" />
+</head>
+
+<body>
+  <!--navegation links-->
+  <div class="div2">
+
+    <h3>links de navegação</h3>
+    <a href="../index.html">home</a>
+  </div>
+
+
+  <!--criar json-->
+  <div class="div1">
+    <div class="div1">
+      <h2>Crie uma anotação</h2>
+      <label>nome </label>
+      <input type="text" name="text1" id="text1"/><br><br>
+      <label>idade </label>
+      <input type="text" name="text2" id="text2"/><br><br>
+      <label>altura </label>
+      <input type="text" name="text3" id="text3" placeholder="180 cm"/><br><br>
+
+      <button class="button" onclick="registrar()">registrar</button>
+
+    </div>
+
+    <div class="div2">
+      <p>ultimo registro: </p>
+      <input type="text" name="text3" id="text3" placeholder="Seu resultado">
+      <button class="button" onclick="carregar()">carregar</button>
+    </div>
+  </div>
+
+</body>
+</html>
