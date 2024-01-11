@@ -22,7 +22,7 @@ function convGToKilo(){
 function convKToGiga(){
   var entrada1 = document.getElementById('text7').value;
   const var1= Number(entrada1);
-  const var2 = var1 / 1024 / 1024;
+  const var2 = var1 / 1048576;
   document.getElementById("text8").value = var2;
 }
 
