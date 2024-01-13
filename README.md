@@ -6,3 +6,5 @@ js shortcut to study
 - imc calculator
 - generator pass (broken)
 - conversor de bytes
+
+auto teste
